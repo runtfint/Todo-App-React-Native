@@ -3,7 +3,7 @@ import { useFonts } from 'expo-font'
 
 export default function Footer({
     countOfTasks,
-    changeModalVisibility,
+    changeModalVisibility, 
 }) {
 
 	const [ fontsLoaded ] = useFonts({
